@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: #1d1e22;
+}
+
+:root {
+  --boxShadowInset: inset 5px 5px 7px #0c0c0e, inset -5px -5px 7px #2e3036;
+  --boxShadow: 5px 5px 7px #0c0c0e, -5px -5px 7px #2e3036;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 50px 50px 50px;
+  border-radius: 8px;
+  box-shadow: var(--boxShadowInset);
+}
+
+header {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 25px;
+}
+
+input {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 4px;
+  box-shadow: var(--boxShadow);
+  transition: 0.2s;
+}
+
+input:focus {
+  box-shadow: var(--boxShadowInset);
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: var(--boxShadow);
+}
+
+.forgot {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.forgot a {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+.forgot a:hover {
+  text-decoration: underline;
+}
+
+.forgot {
+  padding-top: 25px;
+  margin-bottom: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+  padding: 10px;
+  color: #eee;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+footer a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
