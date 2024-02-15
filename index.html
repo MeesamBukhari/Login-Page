@@ -3,14 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css"
-    />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="apple-touch-icon"
@@ -42,53 +34,19 @@
     <title>Login</title>
   </head>
   <body>
-    <div class="container">
-      <div class="screen">
-        <div class="screen_content">
-          <form class="login">
-            <div class="login_field">
-              <i class="login_icon fas fa-user"></i>
-              <input
-                type="text"
-                class="login_input"
-                placeholder="Username/Email"
-              />
-            </div>
-            <div class="login_field">
-              <i class="login_icon fas fa-lock"></i>
-              <input
-                type="password"
-                class="login_input"
-                placeholder="Password"
-              />
-            </div>
-            <button class="button login_submit">
-              <spn class="button_text">Login Now</spn>
-              <i class="button_icon fas fa-chevron-right"></i>
-            </button>
-          </form>
-          <div class="social-login">
-            <h3>Login via</h3>
-            <div class="social-icons">
-              <a href="#" class="social-login_icon fab fa-instagram"></a>
-              <a href="#" class="social-login_icon fab fa-facebook"></a>
-              <a href="#" class="social-login_icon fab fa-twitter"></a>
-            </div>
-          </div>
-        </div>
-        <div class="screen_background">
-          <span class="screen_background_shape screen_background_shape4"></span>
-          <span class="screen_background_shape screen_background_shape3"></span>
-          <span class="screen_background_shape screen_background_shape2"></span>
-          <span class="screen_background_shape screen_background_shape1"></span>
-        </div>
-      </div>
-    </div>
+    <form>
+      <header>
+        <p class="title">Login</p>
+      </header>
+      <input type="text" placeholder="Username" />
+      <input type="password" placeholder="Password" />
+      <button>Login</button>
+      <p class="forgot">Don't have account <a href="#">Signup</a></p>
+    </form>
     <footer>
       <p>
-        Developed by<a
-          href="https://www.linkedin.com/in/meesambukhari/"
-          target="_blank"
+        Developed by
+        <a href="https://github.com/MeesamBukhari/" target="_blank"
           >Meesam Bukhari</a
         >
       </p>
